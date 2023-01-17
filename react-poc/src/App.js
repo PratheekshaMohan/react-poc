@@ -1,10 +1,11 @@
-// import logo from './logo.svg';
+
 import './App.css';
+import EventSearch from './Screens/EventSearch';
 
 function App() {
   return (
-    <div>
-      <h1>Hi</h1>
+    <div className="App">
+     <EventSearch />
     </div>
   );
 }
